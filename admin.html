@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Админ-панель</title>
+  <style>
+    body { font-family: Arial; max-width: 600px; margin: auto; padding: 20px; }
+    input, textarea { width: 100%; margin: 10px 0; padding: 8px; }
+    button { padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h1>Добавить услугу</h1>
+  <form id="addServiceForm">
+    <input name="title" placeholder="Название услуги" required>
+    <textarea name="description" placeholder="Описание" required></textarea>
+    <input name="price" placeholder="Цена" required>
+    <input name="image" placeholder="Ссылка на изображение" required>
+    <button type="submit">Добавить</button>
+  </form>
+  <p id="message"></p>
+
+  <a href="index.html">← Назад</a>
+
+  <script src="admin.js"></script>
+</body>
+</html>
