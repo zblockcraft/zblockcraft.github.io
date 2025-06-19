@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Диагностика",
+    "description": "Компьютерная диагностика автомобиля",
+    "price": "от 500 ₽",
+    "image": "assets/img/products/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Ремонт подвески",
+    "description": "Замена стоек, рычагов, шаровых",
+    "price": "от 700 ₽",
+    "image": "assets/img/products/2.jpg"
+  }
+]
